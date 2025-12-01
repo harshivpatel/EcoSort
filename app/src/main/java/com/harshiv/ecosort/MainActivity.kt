@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnCapture).setOnClickListener {
             startActivity(Intent(this, CaptureActivity::class.java))
         }
-
         findViewById<Button>(R.id.btnStats).setOnClickListener {
             startActivity(Intent(this, StatsActivity::class.java))
         }
